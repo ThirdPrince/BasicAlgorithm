@@ -8,6 +8,7 @@ import java.util.Arrays;
  * @date 2023 0613
  */
 public class BinarySearch {
+    private BinarySearch(){}
     public static void main(String[] args) {
 
         int[] arr = {1, 2, 3, 5, 6};
@@ -26,7 +27,7 @@ public class BinarySearch {
      * @param target
      * @return
      */
-    public static int binarySearch(int[] arr, int target) {
+    public static int  binarySearch(int[] arr, int target) {
         if (arr == null) {
             return -1;
         }
